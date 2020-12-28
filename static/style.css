@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 22px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 46px;
+    filter: invert(1);
+}
+#navbar{
+    background-color :#e00909;;
+    padding: 12px 13px;
+    font-family: 'Permanent Marker';
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    text-align: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 13px 20px;
+}
+#navbar li a:hover {
+    color:  rgb(153, 152, 152);
+}
+#introSection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: center/cover no-repeat url("/static/bg.jpg");
+    font-size: 68px;
+    /* background-color: red; */
+    height: 300px;
+}
+#introSection div.small{
+    padding: 8px;
+    font-size: 38px;;
+}
+#missionSection{
+    font-family: 'Courier New', Courier, monospace;
+    height: 300px;
+    background-color:#eae4e4c7;
+    margin: auto;
+    padding: 5px 73px;
+}
+#missionSection h2{
+    text-align: center;
+    padding-top: 12px;
+    font-family: cursive;
+    font-size: 30px;
+}
+
+.card{
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 8px;
+    width: 25%;
+    margin: 22px 40px;
+    height: 200px;
+}
+.card h3{
+    text-align: center;
+    margin: auto;
+    margin-top: 12px;
+    font-family: cursive;
+    font-size: 20px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 130px;
+    padding: 0px 15px;
+    margin: 5px 9px;
+}
+.card-img img{
+    height: inherit;
+    filter: drop-shadow(2px 4px 6px red);
+}
+.card-content{
+    padding: 0px 12px;
+}
+.card-content p{
+    font-size: 18px;
+    font-family: cursive
+}
+#sponsorsSection{
+    font-family: 'Courier New', Courier, monospace;
+    height: 270px;
+    background-color: #eceaeac7;
+}
+#sponsorsSection h2{
+    text-align: center;
+    padding-top: 12px;
+    font-family: cursive;
+    font-size: 30px;
+}
+#sponsors{
+    height: 120px;
+    max-width: 100px;
+    margin: auto;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 22px;
+
+}
+.spImage{
+    height: 120px;
+    margin: 20px;
+    filter: drop-shadow(2px 4px 6px black);;
+}
+#footer{
+    background-color: black;
+    height: 60px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
